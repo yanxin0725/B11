@@ -1,7 +1,3 @@
----
-layout: post
-title: B-11 Project Display
----
 ## Data Acquisition
 ###  Downloading Play-by-Play and Landing Data from the NHL API
 When diving into a data science project involving hockey statistics, one of the key steps is obtaining accurate and comprehensive data. This guide will walk you through how to download the play-by-play and landing data for NHL games across multiple seasons and game types (regular season and playoffs), using the DataAcquisition class. It covers fetching game data via API endpoints, saving the data locally, and ensuring a smooth, automated process.

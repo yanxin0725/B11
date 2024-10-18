@@ -146,7 +146,7 @@ By using this map, you can easily see where a team tends to be more or less aggr
 * Overall performance: The Avalanche were one of the top teams in the NHL during the 2020-21 season, winning the President’s Trophy for having the best regular-season record. This high concentration of shots in the most effective scoring zones reflects their high-powered offense during this period.
 
 **Conclusions:**
-* Shot quality and positioning: The difference in shot maps shows a clear improvement in shot quality and offensive positioning. The 2020-21 team was much more effective at getting to the high-danger areas, whereas the 2016-17 team struggled to generate those chances, taking more perimeter shots.
+* Shot quality and positioning: The difference in shot maps shows a clear improvement in shot quality and offensive positioning. The 2020-21 team was much more effective at getting to the high-danger areas (closer to the net), whereas the 2016-17 team struggled to generate those chances, taking more perimeter shots.
 
 ### 4. Contrasting: A Shot Map Analysis of the Sabres and Lightning from 2018-21 Seasons
 

@@ -112,8 +112,8 @@ Seasons:
 
 This shot map shows how a team's shooting habits compare to the league average during 5-on-5 play. The colors highlight the differences in shooting frequency from different areas of the ice:
 
-* Red areas show where the team takes more shots than the league average, often indicating high-pressure offensive zones.
-* Blue areas show where the team takes fewer shots compared to the average, meaning they generate less offense in those spots.
+* Red areas show where the team takes higher shot probability than the league average, often indicating high-pressure offensive zones.
+* Blue areas show where the team takes lower shot probability compared to the average, meaning they generate less offense in those spots.
 * White areas represent spots where the team shoots at a rate that's about equal to the league average.
 
 By using this map, you can easily see where a team tends to be more or less aggressive in creating scoring chances.
@@ -125,12 +125,18 @@ By using this map, you can easily see where a team tends to be more or less aggr
 |:----------------------------:|:----------------------------:|
 | Fig 1: The 2016-17 Season         | Fig 2: The 2020-21 Season         |
 
-* In the 2016-17 season, the Avalanche's shot map shows a scattered offensive presence, with only a small red area in front of the net indicating more shots than the league average. Large blue areas, especially on the wings and mid-range, suggest the team struggled to generate consistent offense, which is consistent with their last-place finish in the standings.
+**2016-17 Season:**
+* Shot density: In the 2016-17 heatmap, there is a distinct lack of dense shot attempts in the high-danger areas (the slot and areas right in front of the net). This indicates that the Avalanche struggled to generate high-quality scoring opportunities.
 
-* By the 2020-21 season, the shot map shows a major shift. The red areas are much more pronounced, especially around the net, reflecting a stronger and more consistent offensive attack. The reduction in blue areas means they were generating more shots from across the ice, particularly in high-danger areas. This corresponds to their top finish in the league, highlighting a clear improvement in offensive performance and efficiency.
+* Outside shots: There's a noticeable tendency for shots to come from the outside and at the point, which are less likely to result in goals.
 
-* The maps clearly show how the Avalanche transformed from a team with weak shot generation to one of the league's best in creating scoring opportunities.
+**2020-21 Season:**
+* Shot density: The 2020-21 heatmap, in contrast, shows a significant concentration of shot attempts directly in front of the net, especially in the high-danger areas. This suggests that the team improved its offensive play by generating more dangerous opportunities.
 
+* Overall performance: The Avalanche were one of the top teams in the NHL during the 2020-21 season, winning the President’s Trophy for having the best regular-season record. This high concentration of shots in the most effective scoring zones reflects their high-powered offense during this period.
+
+**Conclusions:**
+* Shot quality and positioning: The difference in shot maps shows a clear improvement in shot quality and offensive positioning. The 2020-21 team was much more effective at getting to the high-danger areas, whereas the 2016-17 team struggled to generate those chances, taking more perimeter shots.
 
 ### 4. Contrasting: A Shot Map Analysis of the Sabres and Lightning from 2018-21 Seasons
 
@@ -148,20 +154,28 @@ By using this map, you can easily see where a team tends to be more or less aggr
 
 
 **Buffalo Sabres:** 
-* In all three seasons, the Sabres’ shot maps show some offensive presence near the opponent's net, with red regions indicating more frequent shooting. However, there are noticeable gaps and blue regions, especially in areas farther from the net and along the boards. This suggests inconsistent shot generation and an inability to consistently apply offensive pressure across the ice. Their offense seems limited to a few high-danger areas, but the lack of intensity in these red zones compared to Tampa Bay shows a potential weakness in creating high-quality scoring chances.
+* 2018-19: The Sabres' shot map shows a general lack of concentration in high-danger areas (directly in front of the net). They seem to take many shots from the perimeter, with some activity near the slot but not consistently.
+
+* 2019-20: This season continues to show perimeter shooting, with slightly more activity in front of the net compared to 2018-19, but still not as dense as it needs to be for a successful offense.
+
+* 2020-21: Similar to previous seasons, the Sabres struggle to generate high-danger chances, with more shots coming from outside the prime scoring areas. The overall offensive production seems scattered and lacks a consistent threat close to the net.
 
 **Tampa Bay Lightning:**
-* Tampa Bay's shot maps from the same seasons show a much more aggressive and consistent offensive presence. Each season, they generate a lot of red zones, particularly in the high-danger areas directly in front of the net. This indicates that Tampa Bay consistently produces more shots from prime scoring areas. There are also fewer blue areas, meaning they maintain a balanced offensive approach from multiple positions on the ice. This likely contributes to their ability to dominate games, as they create more frequent and dangerous scoring opportunities.
+* 2018-19: The Lightning's shot map is strikingly different from Buffalo's, with a heavy concentration of shots directly in front of the net. This shows a team that consistently gets into the high-danger areas and capitalizes on more dangerous scoring opportunities.
+
+* 2019-20: This trend continues with another strong focus on high-danger areas, and their offense remains potent, which is likely a significant factor in their successful Stanley Cup win this season.
+
+* 2020-21: Again, the Lightning's shot map shows a high concentration of shots in the slot and around the net, demonstrating a consistently dangerous offense that led them to a second consecutive Stanley Cup victory.
 
 **Key Observations:**
-* Consistency and Pressure: The Lightning's maps show a much more balanced and aggressive offensive presence, which likely explains their success. Their ability to consistently generate shots from dangerous areas year over year likely contributes to their ability to win tight games and perform well in the playoffs.
+* Sabres' Struggles: Buffalo's struggles can be largely attributed to their inability to generate consistent high-danger chances. Their shot maps show a lot of perimeter shooting, which is less likely to lead to goals. This lack of quality scoring opportunities is likely one of the key reasons they have not been competitive in recent years.
 
-* Limited Offense for Buffalo: The Sabres, on the other hand, show inconsistency and a lack of pressure in key areas of the ice. This likely explains why they have struggled in recent years — their offense is not as threatening or well-rounded as Tampa Bay’s.
-Limitations of Shot Maps:
+* Lightning's Success: Tampa Bay's success can be clearly seen in their shot maps. They consistently generate shots in the high-danger areas, which correlates with higher goal-scoring potential. Their focus on quality chances near the net has been a key component of their back-to-back championships.
 
-* While these maps provide a good visual representation of shot generation, they don’t tell the full story. Other factors such as shot quality, team defense, goaltending, and overall game strategy also play crucial roles in determining success. Tampa Bay's success isn't just because they shoot more; it's also about the quality of those shots and their overall team play. Similarly, Buffalo's struggles can't be solely attributed to shot volume but are likely also due to issues like defensive weakness and inconsistent goaltending.
+**Limitation:**
+* The shot maps provide a clear indication of why Tampa Bay has been so successful and why Buffalo has struggled offensively. However, while shot location is an important factor, it doesn’t account for other critical aspects like defensive play, goaltending, special teams, or the overall quality of the roster. These maps give us insight into offensive tendencies but do not capture the complete picture of why teams succeed or fail over a season.
 
-* In conclusion, these shot maps paint a strong picture of why Tampa Bay has been so successful and why Buffalo has struggled, but they are just one piece of the overall puzzle.
+* In conclusion, these shot maps paint a strong picture of why Lightning has been so successful and why Sabres has struggled, but they are just one piece of the overall puzzle.
 
 
 

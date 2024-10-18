@@ -71,6 +71,19 @@ where seasons and game_types are the same as previously defined.
 
 ## Debugging Tool
 
+![](/assets/ipywidget1.png)
+![](/assets/ipywidget2.png)
+
+
+### Tool's code
+![](/assets/code1.png)
+![](/assets/code2.png)
+![](/assets/code3.png)
+
+### Description of what the tool
+Choose the type of game first. Then, use the first slider to navigate through all the available games. After selecting a game, use the second slider to explore the different events within that game. The output will display detailed information about the game and its corresponding events.
+
+
 ## Tidy data
 
 ## Simple Visualizations

@@ -14,7 +14,7 @@ The DataAcquisition class is designed to make downloading play-by-play data easy
 - Handling additional landing information related to the games (optional).
 
 #### Key Components
-- ** ___init___**: This method initializes the class with the selected seasons, game types, and file path for saving the data.
+-  **__init__**: This method initializes the class with the selected seasons, game types, and file path for saving the data.
 - **_get_game_request_url**: A helper function to build the URL for retrieving play-by-play data for a specific game.
 - **get_associated_game_ids**: Fetches all relevant game IDs for the provided seasons and game types.
 - **get_game_data**: Retrieves play-by-play data for a specific game by its game ID.

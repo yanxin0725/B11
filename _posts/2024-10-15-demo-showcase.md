@@ -3,10 +3,10 @@ layout: post
 title: B-11 Project Display
 ---
 ## Data Acquisition
-### 1. Downloading Play-by-Play Data from the NHL API
+###  Downloading Play-by-Play Data from the NHL API
 When diving into a data science project involving hockey statistics, one of the key steps is obtaining accurate and comprehensive data. This guide will walk you through how to download the play-by-play data for NHL games across multiple seasons and game types (regular season and playoffs), using the DataAcquisition class. It covers fetching game data via API endpoints, saving the data locally, and ensuring a smooth, automated process.
 
-### 2.Overview of the DataAcquisition Class
+### Overview of the DataAcquisition Class
 The DataAcquisition class is designed to make downloading play-by-play data easy and automated. It connects to the NHL’s API to retrieve game information based on specified seasons and game types. The core functionalities include:
 - Fetching game IDs for selected seasons and game types.
 - Retrieving play-by-play data for each game.

@@ -3,13 +3,14 @@ layout: post
 title: B-11 Project Display
 ---
 ## Data Acquisition
-###  Downloading Play-by-Play Data from the NHL API
-When diving into a data science project involving hockey statistics, one of the key steps is obtaining accurate and comprehensive data. This guide will walk you through how to download the play-by-play data for NHL games across multiple seasons and game types (regular season and playoffs), using the DataAcquisition class. It covers fetching game data via API endpoints, saving the data locally, and ensuring a smooth, automated process.
+###  Downloading Play-by-Play and Landing Data from the NHL API
+When diving into a data science project involving hockey statistics, one of the key steps is obtaining accurate and comprehensive data. This guide will walk you through how to download the play-by-play and landing data for NHL games across multiple seasons and game types (regular season and playoffs), using the DataAcquisition class. It covers fetching game data via API endpoints, saving the data locally, and ensuring a smooth, automated process.
 
 ### Overview of the DataAcquisition Class
-The DataAcquisition class is designed to make downloading play-by-play data easy and automated. It connects to the NHL’s API to retrieve game information based on specified seasons and game types. The core functionalities include:
+The DataAcquisition class is designed to make downloading play-by-play and landing data easy and automated. It connects to the NHL’s API to retrieve game information based on specified seasons and game types. The core functionalities include:
 - Fetching game IDs for selected seasons and game types.
 - Retrieving play-by-play data for each game.
+- Retrieving landing data for each game
 - Saving game data to your local system in JSON format.
 - Handling additional landing information related to the games (optional).
 
@@ -20,6 +21,8 @@ The DataAcquisition class is designed to make downloading play-by-play data easy
 - **get_game_data**: Retrieves play-by-play data for a specific game by its game ID.
 - **download_play_by_play_data_for_specific_season_gametype**: Downloads and saves the play-by-play data for all games of a specific season and game type.
 - **download_all_play_by_play_data**: Automates downloading of play-by-play data for all specified seasons and game types.
+- **get_landing_information**: Retrieves landing data for a specific game by its game ID.
+- **download_all_landing_information**: Automates downloading of play-by-play data for all specified seasons and game types.
 
  **Step-by-Step Example**
  
@@ -51,6 +54,12 @@ If you’re only interested in downloading data for a particular season (say, th
 
 ![image](https://github.com/user-attachments/assets/05659901-6f00-40bd-b369-0c6b8ec784e6)
 This allows you to narrow down the data you want to download without retrieving unnecessary data for other seasons or game types.
+
+**Downloading landing Data**
+
+The process to download the landing is almost identical to downloading the play-by-play data. You can call the download_all_landing_information() method from the previously instantiated DataAcquisition object:
+![image](/assets/landing_data_acquisition.png) 
+where seasons and game_types are the same as previously defined.
 
 **Functionality Summary**
 

@@ -3,6 +3,54 @@ layout: post
 title: B-11 Project Display
 ---
 ## Data Acquisition
+### 1. Downloading Play-by-Play Data from the NHL API
+When diving into a data science project involving hockey statistics, one of the key steps is obtaining accurate and comprehensive data. This guide will walk you through how to download the play-by-play data for NHL games across multiple seasons and game types (regular season and playoffs), using the DataAcquisition class. It covers fetching game data via API endpoints, saving the data locally, and ensuring a smooth, automated process.
+
+### 2.Overview of the DataAcquisition Class
+The DataAcquisition class is designed to make downloading play-by-play data easy and automated. It connects to the NHL’s API to retrieve game information based on specified seasons and game types. The core functionalities include:
+•	Fetching game IDs for selected seasons and game types.
+•	Retrieving play-by-play data for each game.
+•	Saving game data to your local system in JSON format.
+•	Handling additional landing information related to the games (optional).
+
+#### Key Components
+•**__init__**: This method initializes the class with the selected seasons, game types, and file path for saving the data.
+•	**_get_game_request_url**: A helper function to build the URL for retrieving play-by-play data for a specific game.
+•**get_associated_game_ids**: Fetches all relevant game IDs for the provided seasons and game types.
+•	**get_game_data**: Retrieves play-by-play data for a specific game by its game ID.
+•**download_play_by_play_data_for_specific_season_gametype**: Downloads and saves the play-by-play data for all games of a specific season and game type.
+•	**download_all_play_by_play_data**: Automates downloading of play-by-play data for all specified seasons and game types.
+
+**Step-by-Step Example**
+Let’s assume you’re interested in downloading play-by-play data for multiple NHL seasons, including both regular season and playoff games. Here’s how to go about it:
+**Step 1**: Initialize the DataAcquisition Class
+We need to specify which seasons and game types we are interested in. In NHL game types, '2' represents regular season games, and '3' represents playoff games.
+![image](https://github.com/user-attachments/assets/3b4b2e9d-065d-4112-b25e-b1b3ee8e248a)
+This initialization sets up the necessary parameters to interact with the NHL API.
+
+**Step 2: Download All Play-by-Play Data**
+To download the play-by-play data for all games in the selected seasons and game types, you can call the following method:
+![image](https://github.com/user-attachments/assets/9f77a38c-ad42-4597-9353-da5de029dad8)
+
+This will:
+•	Fetch the game IDs for all games within the specified seasons and game types.
+•	Retrieve play-by-play data for each game and save it to the specified files_path (e.g., data/).
+•	Use the tqdm library to show a progress bar as data is downloaded.
+
+**Step 3: Inspect the Downloaded Files**
+After the download is complete, you’ll find the data saved as individual JSON files in the data/ folder. Each file is named based on the game ID, allowing you to easily access and analyze specific games later on.
+
+**Customization: Downloading Data for a Specific Season and Game Type**
+If you’re only interested in downloading data for a particular season (say, the 2020-2021 season) and only for regular season games, you can use the method download_play_by_play_data_for_specific_season_gametype:
+
+![image](https://github.com/user-attachments/assets/05659901-6f00-40bd-b369-0c6b8ec784e6)
+This allows you to narrow down the data you want to download without retrieving unnecessary data for other seasons or game types.
+
+**Functionality Summary**
+•	**Ease of Use**: The DataAcquisition class abstracts away the complexities of interacting with the NHL API. You don’t need to worry about constructing API requests manually.
+•	**Flexibility**: You can specify any seasons and game types, ensuring you have control over what data is downloaded.
+•	**Automation**: Once set up, the class can automatically fetch and save all relevant game data in a structured format.
+
 
 ## Debugging Tool
 

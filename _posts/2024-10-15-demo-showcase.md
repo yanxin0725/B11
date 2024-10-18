@@ -32,6 +32,7 @@ Let’s assume you’re interested in downloading play-by-play data for multiple
  
 We need to specify which seasons and game types we are interested in. In NHL game types, '2' represents regular season games, and '3' represents playoff games.
 ![image](https://github.com/user-attachments/assets/3b4b2e9d-065d-4112-b25e-b1b3ee8e248a)
+
 This initialization sets up the necessary parameters to interact with the NHL API.
 
 **Step 2: Download All Play-by-Play Data**
@@ -57,7 +58,7 @@ This allows you to narrow down the data you want to download without retrieving 
 
 **Downloading landing Data**
 
-The process to download the landing is almost identical to downloading the play-by-play data. You can call the download_all_landing_information() method from the previously instantiated DataAcquisition object:
+The process to download the landing data is almost identical to downloading the play-by-play data. You can call the download_all_landing_information() method from the previously instantiated DataAcquisition object:
 ![image](/assets/landing_data_acquisition.PNG) 
 where seasons and game_types are the same as previously defined.
 

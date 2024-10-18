@@ -21,14 +21,14 @@ The DataAcquisition class is designed to make downloading play-by-play data easy
 - **download_play_by_play_data_for_specific_season_gametype**: Downloads and saves the play-by-play data for all games of a specific season and game type.
 - **download_all_play_by_play_data**: Automates downloading of play-by-play data for all specified seasons and game types.
 
-#####**Step-by-Step Example**
+##### **Step-by-Step Example**
 Let’s assume you’re interested in downloading play-by-play data for multiple NHL seasons, including both regular season and playoff games. Here’s how to go about it:
-######**Step 1**: Initialize the DataAcquisition Class
+###### **Step 1**: Initialize the DataAcquisition Class
 We need to specify which seasons and game types we are interested in. In NHL game types, '2' represents regular season games, and '3' represents playoff games.
 ![image](https://github.com/user-attachments/assets/3b4b2e9d-065d-4112-b25e-b1b3ee8e248a)
 This initialization sets up the necessary parameters to interact with the NHL API.
 
-######**Step 2: Download All Play-by-Play Data**
+###### **Step 2: Download All Play-by-Play Data**
 To download the play-by-play data for all games in the selected seasons and game types, you can call the following method:
 ![image](https://github.com/user-attachments/assets/9f77a38c-ad42-4597-9353-da5de029dad8)
 
@@ -37,7 +37,7 @@ This will:
 - Retrieve play-by-play data for each game and save it to the specified files_path (e.g., data/).
 - Use the tqdm library to show a progress bar as data is downloaded.
 
-######**Step 3: Inspect the Downloaded Files**
+###### **Step 3: Inspect the Downloaded Files**
 After the download is complete, you’ll find the data saved as individual JSON files in the data/ folder. Each file is named based on the game ID, allowing you to easily access and analyze specific games later on.
 
 **Customization: Downloading Data for a Specific Season and Game Type**

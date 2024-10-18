@@ -98,8 +98,9 @@ Above are screenshots of our final dataframe resulting from the tidy data step.
 It would be interesting to know if a shot taken was actually a rebound shot. To do this, we would have to get the timestamps for each shot event. Then, any two shots that were taken within 2-3 seconds of each other could be considered to be rebound shots. Another method would be to take a look at 'blocked-shot' events that were made by a goalie. Any shot ensuing this event would also be considered to be rebound shots.
 
 **Checking if a shot is off the rush**
+Shots off the rush can be identified using 'takeaway' and 'giveaway' events that are present in the play-by-play data. A 'takeaway' is a form of turnover in which the player takes the puck from the opposition, while a 'giveaway' is a form of turnover where the player makes an unforced error that results in giving the puck up to the opposition. Any shot that is taken right after these events in a short amount of time can be considered to be shots that are off the rush.
 
-**Identifying One-Timers**
+**Identifying Faceoff plays**
 
 ## Simple Visualizations
 ### 1. Shot distribution for season 2019-2020

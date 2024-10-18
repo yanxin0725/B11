@@ -8,18 +8,18 @@ When diving into a data science project involving hockey statistics, one of the 
 
 ### 2.Overview of the DataAcquisition Class
 The DataAcquisition class is designed to make downloading play-by-play data easy and automated. It connects to the NHL’s API to retrieve game information based on specified seasons and game types. The core functionalities include:
-•	Fetching game IDs for selected seasons and game types.
-•	Retrieving play-by-play data for each game.
-•	Saving game data to your local system in JSON format.
-•	Handling additional landing information related to the games (optional).
+- Fetching game IDs for selected seasons and game types.
+- Retrieving play-by-play data for each game.
+- Saving game data to your local system in JSON format.
+- Handling additional landing information related to the games (optional).
 
 #### Key Components
-•**__init__**: This method initializes the class with the selected seasons, game types, and file path for saving the data.
-•	**_get_game_request_url**: A helper function to build the URL for retrieving play-by-play data for a specific game.
-•**get_associated_game_ids**: Fetches all relevant game IDs for the provided seasons and game types.
-•	**get_game_data**: Retrieves play-by-play data for a specific game by its game ID.
-•**download_play_by_play_data_for_specific_season_gametype**: Downloads and saves the play-by-play data for all games of a specific season and game type.
-•	**download_all_play_by_play_data**: Automates downloading of play-by-play data for all specified seasons and game types.
+- **__init__**: This method initializes the class with the selected seasons, game types, and file path for saving the data.
+- **_get_game_request_url**: A helper function to build the URL for retrieving play-by-play data for a specific game.
+- **get_associated_game_ids**: Fetches all relevant game IDs for the provided seasons and game types.
+- **get_game_data**: Retrieves play-by-play data for a specific game by its game ID.
+- **download_play_by_play_data_for_specific_season_gametype**: Downloads and saves the play-by-play data for all games of a specific season and game type.
+- **download_all_play_by_play_data**: Automates downloading of play-by-play data for all specified seasons and game types.
 
 **Step-by-Step Example**
 Let’s assume you’re interested in downloading play-by-play data for multiple NHL seasons, including both regular season and playoff games. Here’s how to go about it:
@@ -33,9 +33,9 @@ To download the play-by-play data for all games in the selected seasons and game
 ![image](https://github.com/user-attachments/assets/9f77a38c-ad42-4597-9353-da5de029dad8)
 
 This will:
-•	Fetch the game IDs for all games within the specified seasons and game types.
-•	Retrieve play-by-play data for each game and save it to the specified files_path (e.g., data/).
-•	Use the tqdm library to show a progress bar as data is downloaded.
+- Fetch the game IDs for all games within the specified seasons and game types.
+- Retrieve play-by-play data for each game and save it to the specified files_path (e.g., data/).
+- Use the tqdm library to show a progress bar as data is downloaded.
 
 **Step 3: Inspect the Downloaded Files**
 After the download is complete, you’ll find the data saved as individual JSON files in the data/ folder. Each file is named based on the game ID, allowing you to easily access and analyze specific games later on.
@@ -47,9 +47,9 @@ If you’re only interested in downloading data for a particular season (say, th
 This allows you to narrow down the data you want to download without retrieving unnecessary data for other seasons or game types.
 
 **Functionality Summary**
-•	**Ease of Use**: The DataAcquisition class abstracts away the complexities of interacting with the NHL API. You don’t need to worry about constructing API requests manually.
-•	**Flexibility**: You can specify any seasons and game types, ensuring you have control over what data is downloaded.
-•	**Automation**: Once set up, the class can automatically fetch and save all relevant game data in a structured format.
+- **Ease of Use**: The DataAcquisition class abstracts away the complexities of interacting with the NHL API. You don’t need to worry about constructing API requests manually.
+- **Flexibility**: You can specify any seasons and game types, ensuring you have control over what data is downloaded.
+- **Automation**: Once set up, the class can automatically fetch and save all relevant game data in a structured format.
 
 
 ## Debugging Tool

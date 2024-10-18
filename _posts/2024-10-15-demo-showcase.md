@@ -58,7 +58,7 @@ This allows you to narrow down the data you want to download without retrieving 
 **Downloading landing Data**
 
 The process to download the landing is almost identical to downloading the play-by-play data. You can call the download_all_landing_information() method from the previously instantiated DataAcquisition object:
-![image](/assets/landing_data_acquisition.png) 
+![image](/assets/landing_data_acquisition.PNG) 
 where seasons and game_types are the same as previously defined.
 
 **Functionality Summary**

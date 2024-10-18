@@ -14,16 +14,16 @@ The DataAcquisition class is designed to make downloading play-by-play data easy
 - Handling additional landing information related to the games (optional).
 
 #### Key Components
--  **_init_**: This method initializes the class with the selected seasons, game types, and file path for saving the data.
+-  **\_\_int\_\_**: This method initializes the class with the selected seasons, game types, and file path for saving the data.
 - **_get_game_request_url**: A helper function to build the URL for retrieving play-by-play data for a specific game.
 - **get_associated_game_ids**: Fetches all relevant game IDs for the provided seasons and game types.
 - **get_game_data**: Retrieves play-by-play data for a specific game by its game ID.
 - **download_play_by_play_data_for_specific_season_gametype**: Downloads and saves the play-by-play data for all games of a specific season and game type.
 - **download_all_play_by_play_data**: Automates downloading of play-by-play data for all specified seasons and game types.
 
-##### Step-by-Step Example
+##### **Step-by-Step Example**
 Let’s assume you’re interested in downloading play-by-play data for multiple NHL seasons, including both regular season and playoff games. Here’s how to go about it:
-###### Step 1: Initialize the DataAcquisition Class
+###### **Step 1: Initialize the DataAcquisition Class**
 We need to specify which seasons and game types we are interested in. In NHL game types, '2' represents regular season games, and '3' represents playoff games.
 ![image](https://github.com/user-attachments/assets/3b4b2e9d-065d-4112-b25e-b1b3ee8e248a)
 This initialization sets up the necessary parameters to interact with the NHL API.

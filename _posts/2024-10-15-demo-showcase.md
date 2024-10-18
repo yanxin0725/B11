@@ -2,6 +2,10 @@
 layout: post
 title: B-11 Project Display
 ---
+## Simple Visualizations
+### 1. Shot distribution for season 2019-2020
+![Figure 1](/assets/shot_types_2019.png) 
+The figure above shows the shot distribution and goal ratio for each shot type for the season 2019-2020. From the plot, we can see that the most dangerous type of shot appears to be the "tip-in" with a goal rate of around 16.7\%. However, the most common type of shot is the "wrist" shot by a large margin. The stacked bar plot is appropriate to help visualize and compare proportion of shot types across the league. The red line plot helps give an exact answer on how effective a shot is. Together, both plots help give insights on shot distribution and efficiency.
 ## Advanced Visualizations: Shot Maps
 ### 1. Interactive Offence Zone Plot
 

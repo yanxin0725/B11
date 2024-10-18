@@ -101,6 +101,7 @@ It would be interesting to know if a shot taken was actually a rebound shot. To 
 Shots off the rush can be identified using 'takeaway' and 'giveaway' events that are present in the play-by-play data. A 'takeaway' is a form of turnover in which the player takes the puck from the opposition, while a 'giveaway' is a form of turnover where the player makes an unforced error that results in giving the puck up to the opposition. Any shot that is taken right after these events in a short amount of time can be considered to be shots that are off the rush.
 
 **Identifying Faceoff plays**
+Faceoff plays are goals that were made shortly after a faceoff. These can be identified using the event 'faceoff' available in the play-by-play data, as well as checking whether a goal was made within seconds of this event occurring. This can help calculate a percentage chance that a team scores when a faceoff occurs. 
 
 ## Simple Visualizations
 ### 1. Shot distribution for season 2019-2020

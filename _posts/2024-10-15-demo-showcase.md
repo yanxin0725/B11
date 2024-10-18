@@ -80,11 +80,26 @@ where seasons and game_types are the same as previously defined.
 ![](/assets/code2.png)
 ![](/assets/code3.png)
 
-### Description of what the tool
+### Description of how the tool works
 Choose the type of game first. Then, use the first slider to navigate through all the available games. After selecting a game, use the second slider to explore the different events within that game. The output will display detailed information about the game and its corresponding events.
 
 
 ## Tidy data
+
+### Snippet of final dataframe
+![image](/assets/final_dataframe_1.png)
+![image](/assets/final_dataframe_2.png)
+
+Above are screenshots of our final dataframe resulting from the tidy data step.
+
+### Additional features to be considered
+
+**Labeling a shot as a rebound shot**
+It would be interesting to know if a shot taken was actually a rebound shot. To do this, we would have to get the timestamps for each shot event. Then, any two shots that were taken within 2-3 seconds of each other could be considered to be rebound shots. Another method would be to take a look at 'blocked-shot' events that were made by a goalie. Any shot ensuing this event would also be considered to be rebound shots.
+
+**Checking if a shot is off the rush**
+
+**Identifying One-Timers**
 
 ## Simple Visualizations
 ### 1. Shot distribution for season 2019-2020

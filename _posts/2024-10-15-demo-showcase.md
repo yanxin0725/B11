@@ -2,10 +2,27 @@
 layout: post
 title: B-11 Project Display
 ---
+## Data Acquisition
+
+## Debugging Tool
+
+## Tidy data
+
 ## Simple Visualizations
 ### 1. Shot distribution for season 2019-2020
 ![Figure 1](/assets/shot_types_2019.png) 
 The figure above shows the shot distribution and goal ratio for each shot type for the season 2019-2020. From the plot, we can see that the most dangerous type of shot appears to be the "tip-in" with a goal rate of around 16.7\%. However, the most common type of shot is the "wrist" shot by a large margin. The stacked bar plot is appropriate to help visualize and compare proportion of shot types across the league. The red line plot helps give an exact answer on how effective a shot is. Together, both plots help give insights on shot distribution and efficiency.
+
+### 2. Relationship between shot distance and goal
+![Figure 1](/assets/distance_goal_2018.png) 
+![Figure 1](/assets/distance_goal_2019.png) 
+![Figure 1](/assets/distance_goal_2020.png) 
+From the above plots, we can see that the closer the puck is to the net, the higher the chance of scoring. One interesting observation is that when the puck is at the opposite end of the goal (at around 180 to 200 feet), there seems to be an odd increase in the goal rate. These goals are likely scored through open nets. Combining this with the low amount of shots recorded, the slight upwards trend observed from the 70 to 200 feet is not so surprising. Note that the graphs are almost identical over the past three seasons. The goal rate starts at around 30\% and decreases to a very low point until about the 70 feet range. Then there there is a slight upwards trend from 70 feet onwards. We decided that the line plot is the most useful plot to describe the goal rate and number of shots. It allows us to easily see trends given a distance from the net.
+
+### 3. Relationship between shot distance, shot type and goal for 2021-2022
+![Figure 1](/assets/distance_shot_goal_2021.png) 
+The figure above shows the goal rate given the shot type and the distance from the net for the 2021-2022 season. We can see that at very close range, deflections have very high scoring chances and wrap-arounds have the lowest scoring chances. All shots see a rapid decrease when getting further away from the net, which no clear shot being the most dangerous one. However, we can note that the deflected shot has two spikes occurring at around 45 feet and 60 feet. The shots scoring beyond 75 feet are likely due to open nets, which are easy to score even from afar. The spikes in the data in the zone are possibly due to the rarity of shots beyond 75 feet made on open nets.
+
 ## Advanced Visualizations: Shot Maps
 ### 1. Interactive Offence Zone Plot
 
